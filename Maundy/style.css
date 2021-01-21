@@ -4,7 +4,7 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  background: url('./image.jpeg') top center no-repeat;
+  background: url('./img.jpg') top center no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -88,6 +88,9 @@ body::before {
   text-align: center;
   width: 90px;
   margin: 0 5px;
+  background: rgba(0, 0, 0, 0.308);
+  padding: 5px;
+  border-radius: 3px;
 }
 
 #header .countdown div h3 {
@@ -100,7 +103,7 @@ body::before {
   font-size: 18px;
   font-weight: 500;
   text-transform: uppercase;
-  color: rgb(27, 26, 26);
+  color: white;
 }
 
 @media (max-width: 575px) {

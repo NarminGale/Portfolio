@@ -1,0 +1,16 @@
+.aboutSection {
+  .container {
+    .row {
+      background-color: grey;
+      display: flex;
+      flex-direction: row;
+      .div-img-bg {
+        .about-img {
+          .img-responsive {
+            width: 20rem;
+          }
+        }
+      }
+    }
+  }
+}

@@ -7,7 +7,8 @@
         "navbar.scss",
         "hero.scss",
         "about.scss",
-        "_mixins.scss"
+        "_mixins.scss",
+        "services.scss"
     ],
     "names": [],
     "file": "style.css"

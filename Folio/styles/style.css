@@ -1,0 +1,112 @@
+body {
+  padding: 0;
+  margin: 0;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  font-family: 'Poppins', sans-serif;
+}
+
+nav {
+  position: fixed;
+  width: 100%;
+  padding: 0.8rem;
+  margin-top: -21px;
+  background: white;
+  display: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+          box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
+}
+
+nav .row .container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+nav .row .container .log a {
+  color: green;
+  font-size: 23px;
+  text-decoration: none;
+  -webkit-transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+nav .row .container .responsive {
+  font-size: 23px;
+}
+
+@media (min-width: 992px) {
+  nav .row .container .responsive {
+    display: none;
+  }
+}
+
+nav .row .container .nav-menu {
+  width: 55%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  -webkit-box-pack: space-evenly;
+      -ms-flex-pack: space-evenly;
+          justify-content: space-evenly;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  line-height: 32px;
+  list-style: none;
+  padding: 0;
+}
+
+nav .row .container .nav-menu li {
+  margin: 0 25px 0 10px;
+}
+
+@media (max-width: 991px) {
+  nav .row .container .nav-menu {
+    display: none;
+  }
+}
+
+@media (min-width: 576px) {
+  nav .row .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  nav .row .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  nav .row .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  nav .row .container {
+    max-width: 1140px;
+  }
+}
+/*# sourceMappingURL=style.css.map */

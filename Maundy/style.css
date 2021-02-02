@@ -4,11 +4,8 @@
 body {
   font-family: 'Roboto', sans-serif;
   color: #fff;
-  background: url('./img.jpg') top center no-repeat;
-  background-size: cover;
-  position: relative;
 }
-
+/* 
 body::before {
   content: '';
   position: absolute;
@@ -17,8 +14,25 @@ body::before {
   top: 0;
   bottom: 0;
   background: rgba(66, 72, 85, 0.438);
-}
+} */
 
+.overlay {
+  background-image: url('./img.jpg');
+  background-repeat: no-repeat;
+  position: fixed;
+  width: 100vw;
+  height: 100vh;
+  background-size: cover;
+}
+.overlay::after {
+  content: '';
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  background-color: rgba(66, 72, 85, 0.726);
+}
 @media (min-width: 1024px) {
   body {
     background-attachment: fixed;

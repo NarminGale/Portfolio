@@ -54,8 +54,6 @@
   max-width: 33.333333%;
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
 }
 
 .aboutSection .container .row .col-lg-4 .div-img-bg {
@@ -102,8 +100,7 @@
   max-width: 58.333333%;
   position: relative;
   width: 100%;
-  padding-right: 15px;
-  padding-left: 15px;
+  padding-left: 30px;
 }
 
 .aboutSection .container .row .col-lg-8 .aboutMe .p-heading {

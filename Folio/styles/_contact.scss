@@ -1,0 +1,43 @@
+.contact {
+  height: auto;
+  width: 100%;
+  padding: 90px 0;
+  .container {
+    @include container;
+    .contact-block1 {
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        .col-lg-6 {
+          flex-basis: 50%;
+        }
+        .col-lg-6:first-child {
+          .contact {
+            h2 {
+              margin-bottom: 30px;
+              font-size: 2rem;
+              font-weight: 600;
+              text-transform: uppercase;
+            }
+            ul {
+              padding: 0;
+              margin: 0;
+              color: rgb(141, 139, 139);
+              li {
+                padding-bottom: 10px;
+                font-weight: 300;
+              }
+            }
+          }
+        }
+        .col-lg-6:last-child {
+          form {
+            .row {
+              display: flex;
+            }
+          }
+        }
+      }
+    }
+  }
+}

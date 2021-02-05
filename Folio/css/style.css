@@ -602,7 +602,7 @@ nav .row .container .nav-menu li {
 .journal {
   height: auto;
   width: 100%;
-  background: salmon;
+  background: lightgray;
   padding-bottom: 60px;
   padding-top: 90px;
 }
@@ -663,7 +663,6 @@ nav .row .container .nav-menu li {
 }
 
 .journal .container:last-child .journal-block .row .col-lg-4 {
-  border: 1px solid black;
   flex-basis: 31.5%;
 }
 
@@ -692,9 +691,198 @@ nav .row .container .nav-menu li {
 }
 
 .journal .container:last-child .journal-block .row .col-lg-4 .journal-info .journal-text h4 a {
+  display: block;
   font-size: 19px;
   line-height: 24px;
   margin: 0 0 13px;
   font-weight: 500;
   text-transform: uppercase;
+}
+
+.journal .container:last-child .journal-block .row .col-lg-4 .journal-info .journal-text .seperator {
+  font-size: 14px;
+  line-height: 24px;
+}
+
+.contact {
+  height: auto;
+  width: 100%;
+  padding: 90px 0;
+}
+
+.contact .container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+  .contact .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .contact .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .contact .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .contact .container {
+    max-width: 1140px;
+  }
+}
+
+.contact .container .contact-block1 .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact .container .contact-block1 .row .col-lg-6 {
+  flex-basis: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .contact .container .contact-block1 .row .col-lg-6 {
+    flex-basis: 100%;
+  }
+}
+
+.contact .container .contact-block1 .row .col-lg-6:first-child .contact-group {
+  padding-left: 15px;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:first-child .contact-group h2 {
+  margin-bottom: 30px;
+  font-size: 2rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:first-child .contact-group ul {
+  padding: 0;
+  margin: 0;
+  color: #8d8b8b;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:first-child .contact-group ul li {
+  padding-bottom: 10px;
+  font-weight: 300;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:last-child form .row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:last-child form .row .col-lg-6 {
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+  flex: 0 0 50%;
+  max-width: 50%;
+}
+
+@media screen and (max-width: 992px) {
+  .contact .container .contact-block1 .row .col-lg-6:last-child form .row .col-lg-6 {
+    flex: 0 0 100%;
+    max-width: 100%;
+  }
+}
+
+.contact .container .contact-block1 .row .col-lg-6:last-child form .row .col-lg-6 .form-group {
+  margin-bottom: 1rem;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:last-child form .row .col-lg-6 .form-group input {
+  width: 100%;
+  margin-bottom: 5px;
+  border: 1px solid #999;
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: 0.1em;
+  padding-left: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:last-child form .row .col-lg-12 {
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:last-child form .row .col-lg-12 .form-group {
+  margin-bottom: 1rem;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:last-child form .row .col-lg-12 .form-group input {
+  width: 100%;
+  margin-bottom: 5px;
+  border: 1px solid #999;
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 500;
+  height: 50px;
+  letter-spacing: 0.1em;
+  padding-left: 10px;
+  line-height: 14px;
+  text-transform: uppercase;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:last-child form .row .col-lg-12 {
+  position: relative;
+  width: 100%;
+  padding: 0 15px;
+  flex: 0 0 100%;
+  max-width: 100%;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:last-child form .row .col-lg-12 .form-group {
+  margin-bottom: 1rem;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:last-child form .row .col-lg-12 .form-group textarea {
+  height: 170px;
+  width: 100%;
+  margin-bottom: 5px;
+  border: 1px solid #999;
+  border-radius: 0;
+  font-size: 12px;
+  font-weight: 500;
+  letter-spacing: 0.1em;
+  padding-left: 10px;
+  text-transform: uppercase;
+}
+
+.contact .container .contact-block1 .row .col-lg-6:last-child form .row .col-lg-12:last-child input {
+  width: 100%;
+  margin-bottom: 5px;
+  cursor: pointer;
+  border: none;
+  background-color: black;
+  color: white;
+  font-size: 12px;
+  height: 50px;
+  line-height: 50px;
+  padding: 0 30px;
+  text-transform: uppercase;
+}
+
+@media screen and (max-width: 992px) {
+  .contact .container .contact-block1 .row {
+    flex-direction: column;
+  }
 }

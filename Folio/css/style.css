@@ -198,9 +198,9 @@ nav .row .container .nav-menu li {
 .aboutSection {
   width: 100%;
   height: auto;
-  padding-top: 120px;
+  padding-top: 130px;
   padding-bottom: 90px;
-  background-color: burlywood;
+  background-color: #f5eee6;
 }
 
 .aboutSection .container {
@@ -247,7 +247,7 @@ nav .row .container .nav-menu li {
 }
 
 .aboutSection .container .row .col-lg-4 .div-img-bg {
-  border: 20px solid #b8a07e;
+  border: 20px solid #8d7757;
   width: 100%;
   height: 400px;
 }
@@ -313,8 +313,8 @@ nav .row .container .nav-menu li {
 }
 
 .services {
-  background: #f3d3d8;
-  padding-bottom: 80px;
+  background: #f5eee6;
+  padding-bottom: 50px;
 }
 
 .services .container {
@@ -355,7 +355,6 @@ nav .row .container .nav-menu li {
 }
 
 .services .container .services-carousel .services-block {
-  border: 1px solid black;
   margin-right: 20px;
   display: flex;
   flex-direction: column;
@@ -363,7 +362,7 @@ nav .row .container .nav-menu li {
 
 .services .container .services-carousel .services-block i {
   font-size: 44px;
-  color: green;
+  color: #8d7757;
   line-height: 44px;
 }
 
@@ -375,9 +374,11 @@ nav .row .container .nav-menu li {
   text-transform: uppercase;
 }
 
-.services .container .services-carousel .services-block .seperator {
+.services .container .services-carousel .services-block .separator {
   font-size: 13px;
   line-height: 22px;
+  color: #4b4133;
+  letter-spacing: 0.05rem;
 }
 
 @media (max-width: 768px) {
@@ -421,7 +422,8 @@ nav .row .container .nav-menu li {
 }
 
 .services .container .dots .dot {
-  margin: 0 5px;
+  background-color: #8d7757;
+  margin: 0 3px;
   width: 12px;
   height: 12px;
   border-radius: 50%;
@@ -431,7 +433,7 @@ nav .row .container .nav-menu li {
 }
 
 .portfolio {
-  background-color: gray;
+  background-color: white;
   padding: 90px 0 50px 0;
   position: relative;
 }
@@ -602,7 +604,7 @@ nav .row .container .nav-menu li {
 .journal {
   height: auto;
   width: 100%;
-  background: lightgray;
+  background: #f5eee6;
   padding-bottom: 60px;
   padding-top: 90px;
 }
@@ -888,7 +890,7 @@ nav .row .container .nav-menu li {
 }
 
 .footer {
-  background-color: #f0f085;
+  background-color: #f5eee6;
   padding: 50px 0;
 }
 

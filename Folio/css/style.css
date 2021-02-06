@@ -712,12 +712,15 @@ nav .row .container .nav-menu li {
   line-height: 24px;
   margin: 0 0 13px;
   font-weight: 500;
+  color: #312c26;
   text-transform: uppercase;
 }
 
 .journal .container:last-child .journal-block .row .col-lg-4 .journal-info .journal-text .seperator {
   font-size: 14px;
   line-height: 24px;
+  color: #5f544a;
+  letter-spacing: 0.03rem;
 }
 
 .contact {
@@ -880,6 +883,7 @@ nav .row .container .nav-menu li {
   font-weight: 500;
   letter-spacing: 0.1em;
   padding-left: 10px;
+  padding-top: 15px;
   text-transform: uppercase;
 }
 
@@ -888,7 +892,7 @@ nav .row .container .nav-menu li {
   margin-bottom: 5px;
   cursor: pointer;
   border: none;
-  background-color: black;
+  background-color: #615b40;
   color: white;
   font-size: 12px;
   height: 50px;
@@ -955,6 +959,7 @@ nav .row .container .nav-menu li {
 }
 
 .footer .container .social-media ul li a {
+  color: #4d453d;
   font-size: 20px;
   font-weight: 500;
   letter-spacing: 0.1em;

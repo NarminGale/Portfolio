@@ -537,6 +537,7 @@ nav .row .container .nav-menu li {
 }
 
 .portfolio .container:last-child .row .col-lg-12 ul li {
+  color: #7a746f;
   cursor: pointer;
   display: inline-block;
   padding: 10px 15px 8px 15px;

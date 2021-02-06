@@ -297,11 +297,17 @@ nav .row .container .nav-menu li {
   font-size: 28px;
   text-align: left;
   margin: 25px 0;
+  color: #4d453d;
 }
 
 .aboutSection .container .row .col-lg-8 .aboutMe .seperator {
+  letter-spacing: 0.03rem;
+  line-height: 28px;
+  color: #64625f;
   text-align: left;
   margin-right: 55px;
+  font-weight: 400;
+  font-size: 15px;
 }
 
 @media screen and (max-width: 992px) {
@@ -373,6 +379,7 @@ nav .row .container .nav-menu li {
 }
 
 .services .container .services-carousel .services-block span {
+  color: #4d453d;
   margin: 10px 0;
   font-size: 13px;
   letter-spacing: 0.1em;
@@ -383,7 +390,7 @@ nav .row .container .nav-menu li {
 .services .container .services-carousel .services-block .separator {
   font-size: 13px;
   line-height: 22px;
-  color: #4b4133;
+  color: #64625f;
   letter-spacing: 0.05rem;
 }
 

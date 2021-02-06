@@ -53,10 +53,16 @@
             font-size: 28px;
             text-align: left;
             margin: 25px 0;
+            color: #4d453d;
           }
           .seperator {
+            letter-spacing: 0.03rem;
+            line-height: 28px;
+            color: #64625f;
             text-align: left;
             margin-right: 55px;
+            font-weight: 400;
+            font-size: 15px;
           }
         }
         @media screen and (max-width: 992px) {

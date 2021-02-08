@@ -177,6 +177,15 @@ nav .row .container .nav-menu li {
   font-weight: 700;
   text-transform: uppercase;
   margin-bottom: 10px;
+  position: relative;
+}
+
+.home .container .hero-content h1::after {
+  content: '';
+  position: absolute;
+  top: 10px;
+  height: 65%;
+  border-right: 7px solid white;
 }
 
 .home .container .hero-content p {

@@ -36,6 +36,14 @@
         font-weight: 700;
         text-transform: uppercase;
         margin-bottom: 10px;
+        position: relative;
+        &::after {
+          content: '';
+          position: absolute;
+          top: 10px;
+          height: 65%;
+          border-right: 7px solid white;
+        }
       }
       p {
         font-size: 13px;

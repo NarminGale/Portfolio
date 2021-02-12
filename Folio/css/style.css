@@ -735,6 +735,10 @@ nav .row .container .nav-menu li {
   text-transform: uppercase;
 }
 
+.journal .container:last-child .journal-block .row .col-lg-4 .journal-info .journal-text h4 a:hover {
+  color: #c2a374;
+}
+
 .journal .container:last-child .journal-block .row .col-lg-4 .journal-info .journal-text .seperator {
   font-size: 14px;
   line-height: 24px;

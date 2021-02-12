@@ -78,7 +78,10 @@
             right: 40px;
             font-size: 17px;
             position: absolute;
-            color: #bda076;
+            color: #c2a374;
+            &:hover {
+              color: #e0c9a6;
+            }
           }
           a:last-child {
             right: 10px;

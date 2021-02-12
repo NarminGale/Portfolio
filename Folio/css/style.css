@@ -577,11 +577,9 @@ nav .row .container .nav-menu li {
 }
 
 .portfolio .container:last-child .portfolio-container .portfolio-item .portfolio-info {
-  opacity: 0;
-  top: 165px;
-  left: 30px;
-  width: 82%;
-  bottom: 0;
+  left: 20px;
+  width: 88%;
+  bottom: 20px;
   transition: all ease-in-out 0.3s;
   background: rgba(255, 255, 255, 0.9);
   padding: 15px;
@@ -592,12 +590,24 @@ nav .row .container .nav-menu li {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 10px;
+  color: #5f5c59;
+}
+
+.portfolio .container:last-child .portfolio-container .portfolio-item .portfolio-info p {
+  text-transform: capitalize;
+  color: #7a746f;
 }
 
 .portfolio .container:last-child .portfolio-container .portfolio-item .portfolio-info a {
   top: 30px;
   right: 40px;
+  font-size: 17px;
   position: absolute;
+  color: #c2a374;
+}
+
+.portfolio .container:last-child .portfolio-container .portfolio-item .portfolio-info a:hover {
+  color: #e0c9a6;
 }
 
 .portfolio .container:last-child .portfolio-container .portfolio-item .portfolio-info a:last-child {

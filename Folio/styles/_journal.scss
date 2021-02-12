@@ -50,6 +50,9 @@
                   font-weight: 500;
                   color: #312c26;
                   text-transform: uppercase;
+                  &:hover {
+                    color: #c2a374;
+                  }
                 }
               }
               .seperator {

@@ -80,19 +80,19 @@ nav .row .container {
   }
 }
 
-nav .row .container .log a {
+nav .row .container .nav-header a {
   font-size: 1.44rem;
   color: #44412d;
   font-weight: 600;
 }
 
-nav .row .container .responsive {
+nav .row .container .nav-header .nov-toggle {
   font-size: 1.44rem;
   color: #44412d;
 }
 
 @media (min-width: 992px) {
-  nav .row .container .responsive {
+  nav .row .container .nav-header .nov-toggle {
     display: none;
   }
 }
@@ -115,7 +115,9 @@ nav .row .container .links-container .nav-menu li {
 
 @media (max-width: 991px) {
   nav .row .container .links-container {
-    display: none;
+    display: block;
+    width: 100%;
+    height: auto !important;
   }
 }
 

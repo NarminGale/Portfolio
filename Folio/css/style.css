@@ -37,6 +37,8 @@ ul li {
 nav {
   position: fixed;
   width: 100%;
+  top: 0;
+  left: 0;
   padding: 0.8rem;
   z-index: 1000;
   background: white;
@@ -49,11 +51,6 @@ nav .row .container {
   padding: 0 15px;
   margin: 0 auto;
   box-sizing: border-box;
-  padding: 0 0.94rem;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  align-items: center;
 }
 
 @media (min-width: 576px) {
@@ -80,28 +77,40 @@ nav .row .container {
   }
 }
 
+nav .row .container .nav-header {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+}
+
 nav .row .container .nav-header a {
   font-size: 1.44rem;
   color: #44412d;
   font-weight: 600;
 }
 
-nav .row .container .nav-header .nov-toggle {
+nav .row .container .nav-header .nav-toggle {
   font-size: 1.44rem;
   color: #44412d;
+  outline: none;
 }
 
 @media (min-width: 992px) {
-  nav .row .container .nav-header .nov-toggle {
+  nav .row .container .nav-header .nav-toggle {
     display: none;
   }
 }
 
+nav .row .container .links-container {
+  height: auto;
+}
+
 nav .row .container .links-container .nav-menu {
   display: flex;
-  box-sizing: border-box;
-  justify-content: space-evenly;
+  flex-direction: column;
   align-items: center;
+  box-sizing: border-box;
   line-height: 2rem;
   list-style: none;
   padding: 0;
@@ -113,11 +122,20 @@ nav .row .container .links-container .nav-menu li {
   font-size: 0.94rem;
 }
 
-@media (max-width: 991px) {
-  nav .row .container .links-container {
-    display: block;
-    width: 100%;
-    height: auto !important;
+@media (min-width: 991px) {
+  nav .row .container .links-container .nav-menu {
+    display: flex;
+    flex-direction: row;
+  }
+}
+
+@media (min-width: 991px) {
+  nav .row .container {
+    padding: 0 0.94rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
   }
 }
 

@@ -12,3 +12,15 @@ navToggle.addEventListener('click', function () {
     linksContainer.style.height = 0
   }
 })
+
+const navbar = document.querySelector('.main-nav')
+
+window.addEventListener('scroll', function () {
+  const scrollHeight = window.pageYOffset
+  const navHeight = navbar.getBoundingClientRect().height
+  if (scrollHeight > navHeight + 150) {
+    navbar.style.visibility = 'visible'
+  } else {
+    navbar.style.visibility = 'hidden'
+  }
+})

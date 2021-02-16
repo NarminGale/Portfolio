@@ -1,7 +1,9 @@
+// Select items
 const navToggle = document.querySelector('.nav-toggle')
 const linksContainer = document.querySelector('.links-container')
 const links = document.querySelector('.nav-menu')
 
+// Toggle close and open links
 navToggle.addEventListener('click', function () {
   const containerHeight = linksContainer.getBoundingClientRect().height
   const linksHeight = links.getBoundingClientRect().height
@@ -13,8 +15,10 @@ navToggle.addEventListener('click', function () {
   }
 })
 
+// Select items
 const navbar = document.querySelector('.main-nav')
 
+// Fixed Navbar
 window.addEventListener('scroll', function () {
   const scrollHeight = window.pageYOffset
   const navHeight = navbar.getBoundingClientRect().height

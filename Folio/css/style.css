@@ -108,13 +108,11 @@ nav .row .container .links-container {
 
 nav .row .container .links-container .nav-menu {
   margin: 0;
-  height: auto !important;
   display: flex;
   flex-direction: column;
   align-items: center;
   box-sizing: border-box;
   list-style: none;
-  width: 100%;
   padding: 0;
 }
 
@@ -127,18 +125,31 @@ nav .row .container .links-container .nav-menu li {
   padding: 8px 0;
   text-align: center;
   border-top: 1px solid #f7f7f7;
+  white-space: nowrap;
 }
 
 nav .row .container .links-container .nav-menu li a {
-  margin: 0 1.26rem 0 0.63rem;
+  margin: 0 1.26rem;
   color: #8e865f;
   font-size: 0.94rem;
+}
+
+@media (min-width: 991px) {
+  nav .row .container .links-container .nav-menu li {
+    border-top: none;
+  }
 }
 
 @media (min-width: 991px) {
   nav .row .container .links-container .nav-menu {
     display: flex;
     flex-direction: row;
+  }
+}
+
+@media (min-width: 991px) {
+  nav .row .container .links-container {
+    height: auto !important;
   }
 }
 

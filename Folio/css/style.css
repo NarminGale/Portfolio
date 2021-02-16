@@ -46,6 +46,7 @@ nav {
   padding: 0.8rem;
   z-index: 1000;
   background: white;
+  visibility: hidden;
   box-shadow: 0px 2px 92px 0px rgba(0, 0, 0, 0.18);
 }
 

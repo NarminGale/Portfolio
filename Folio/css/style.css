@@ -390,7 +390,7 @@ nav .row .container .links-container .nav-menu li a {
 
 .services .services-carousel {
   display: flex;
-  transition: all 0.3s linear;
+  transition: all 0.3s;
 }
 
 .services .services-carousel .services-block {

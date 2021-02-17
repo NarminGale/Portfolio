@@ -7,7 +7,7 @@ function run() {
   servicesCarousel.style.transform = `translateX(${-277.5}px)`
 }
 
-setInterval(run, 4000)
+setInterval(run, 5000)
 
 servicesCarousel.addEventListener('transitionend', function () {
   servicesCarousel.appendChild(servicesCarousel.firstElementChild)

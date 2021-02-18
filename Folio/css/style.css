@@ -563,6 +563,7 @@ nav .row .container .links-container .nav-menu li a {
 }
 
 .portfolio .container:last-child .portfolio-container .portfolio-item .portfolio-info {
+  display: none;
   left: 20px;
   width: 88%;
   bottom: 20px;

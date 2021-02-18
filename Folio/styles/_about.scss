@@ -63,11 +63,15 @@
             margin-right: 55px;
             font-weight: 400;
             font-size: 15px;
+            @media screen and (max-width: 992px) {
+              margin: 0;
+            }
           }
         }
         @media screen and (max-width: 992px) {
           flex: 0 0 100%;
           max-width: 100%;
+          padding-left: 0;
         }
       }
       @media screen and (max-width: 992px) {

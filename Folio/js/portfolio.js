@@ -90,16 +90,15 @@ function displayPortfolioItems(portfolioItems) {
   })
   displayPortfolio = displayPortfolio.join('')
   portfolioContainer.innerHTML = displayPortfolio
+  const portfolioItem = portfolioContainer.querySelectorAll('.portfolio-item')
+
+  // Visibility for portfolio items' info
+  portfolioItem.forEach(function (item) {
+    item.addEventListener('mouseenter', function (e) {
+      e.target.children[1].style.display = 'inline-block'
+    })
+    item.addEventListener('mouseleave', function (e) {
+      e.target.children[1].style.display = 'none'
+    })
+  })
 }
-
-const portfolioItem = document.querySelectorAll('.portfolio-item')
-
-// Visibility for portfolio items' info
-portfolioItem.forEach(function (item) {
-  item.addEventListener('mouseenter', function (e) {
-    e.target.children[1].style.display = 'inline-block'
-  })
-  item.addEventListener('mouseleave', function (e) {
-    e.target.children[1].style.display = 'none'
-  })
-})

@@ -44,10 +44,28 @@ const portfolio = [
 ]
 
 const portfolioContainer = document.querySelector('.portfolio-container')
+const portfolioFilters = document.querySelectorAll('#portfolio-filters li')
 
-// Display Portfolio items
+// Load Portfolio items
 window.addEventListener('DOMContentLoaded', function () {
   displayPortfolioItems(portfolio)
+})
+
+// Filter Portfolio items
+portfolioFilters.forEach(function (filter) {
+  filter.addEventListener('click', function (e) {
+    const category = e.currentTarget.dataset.id
+    const portfolioCategory = portfolio.filter(function (item) {
+      if (item.category === category) {
+        return item
+      }
+    })
+    if (category === 'all') {
+      displayPortfolioItems(portfolio)
+    } else {
+      displayPortfolioItems(portfolioCategory)
+    }
+  })
 })
 
 function displayPortfolioItems(portfolioItems) {

@@ -47,7 +47,11 @@ const portfolioContainer = document.querySelector('.portfolio-container')
 
 // Display Portfolio items
 window.addEventListener('DOMContentLoaded', function () {
-  let displayPortfolio = portfolio.map(function (item) {
+  displayPortfolioItems(portfolio)
+})
+
+function displayPortfolioItems(portfolioItems) {
+  let displayPortfolio = portfolioItems.map(function (item) {
     return `<div class="col-lg-4 col-md-6 portfolio-item filter-app">
                 <img
                   src=${item.img}
@@ -68,7 +72,7 @@ window.addEventListener('DOMContentLoaded', function () {
   })
   displayPortfolio = displayPortfolio.join('')
   portfolioContainer.innerHTML = displayPortfolio
-})
+}
 
 const portfolioItem = document.querySelectorAll('.portfolio-item')
 

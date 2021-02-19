@@ -4,7 +4,7 @@ const serviceBlocks = document.querySelector(
 )
 
 function run() {
-  servicesCarousel.style.transform = `translateX(${-277.5}px)`
+  servicesCarousel.style.transform = `translateX(${-280}px)`
 }
 
 setInterval(run, 5000)

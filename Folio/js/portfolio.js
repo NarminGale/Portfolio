@@ -90,6 +90,7 @@ function displayPortfolioItems(portfolioItems) {
   })
   displayPortfolio = displayPortfolio.join('')
   portfolioContainer.innerHTML = displayPortfolio
+
   const portfolioItem = portfolioContainer.querySelectorAll('.portfolio-item')
 
   // Visibility for portfolio items' info

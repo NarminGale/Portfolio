@@ -1,0 +1,140 @@
+.contact {
+  background: white;
+  height: auto;
+  width: 100%;
+  padding: 90px 0;
+  .container {
+    @include container;
+    .contact-block1 {
+      .row {
+        display: flex;
+        flex-wrap: wrap;
+        .col-lg-6 {
+          flex-basis: 50%;
+          @media screen and (max-width: 992px) {
+            flex-basis: 100%;
+          }
+        }
+        .col-lg-6:first-child {
+          .contact-group {
+            padding-left: 15px;
+            h2 {
+              margin-bottom: 30px;
+              font-size: 2rem;
+              font-weight: 600;
+              text-transform: uppercase;
+            }
+            ul {
+              padding: 0;
+              margin: 0;
+              color: rgb(141, 139, 139);
+              li {
+                padding-bottom: 10px;
+                font-weight: 300;
+              }
+            }
+          }
+        }
+        .col-lg-6:last-child {
+          form {
+            .row {
+              display: flex;
+              flex-wrap: wrap;
+              .col-lg-6 {
+                position: relative;
+                width: 100%;
+                padding: 0 15px;
+                flex: 0 0 50%;
+                max-width: 50%;
+                @media screen and (max-width: 992px) {
+                  flex: 0 0 100%;
+                  max-width: 100%;
+                }
+                .form-group {
+                  margin-bottom: 1rem;
+                  input {
+                    width: 100%;
+                    margin-bottom: 5px;
+                    border: 1px solid #999;
+                    border-radius: 0;
+                    font-size: 12px;
+                    font-weight: 500;
+                    height: 50px;
+                    letter-spacing: 0.1em;
+                    padding-left: 10px;
+                    line-height: 14px;
+                    text-transform: uppercase;
+                  }
+                }
+              }
+              .col-lg-12 {
+                position: relative;
+                width: 100%;
+                padding: 0 15px;
+                flex: 0 0 100%;
+                max-width: 100%;
+                .form-group {
+                  margin-bottom: 1rem;
+                  input {
+                    width: 100%;
+                    margin-bottom: 5px;
+                    border: 1px solid #999;
+                    border-radius: 0;
+                    font-size: 12px;
+                    font-weight: 500;
+                    height: 50px;
+                    letter-spacing: 0.1em;
+                    padding-left: 10px;
+                    line-height: 14px;
+                    text-transform: uppercase;
+                  }
+                }
+              }
+              .col-lg-12 {
+                position: relative;
+                width: 100%;
+                padding: 0 15px;
+                flex: 0 0 100%;
+                max-width: 100%;
+                .form-group {
+                  margin-bottom: 1rem;
+                  textarea {
+                    height: 170px;
+                    width: 100%;
+                    margin-bottom: 5px;
+                    border: 1px solid #999;
+                    border-radius: 0;
+                    font-size: 12px;
+                    font-weight: 500;
+                    letter-spacing: 0.1em;
+                    padding-left: 10px;
+                    padding-top: 15px;
+                    text-transform: uppercase;
+                  }
+                }
+              }
+              .col-lg-12:last-child {
+                input {
+                  width: 100%;
+                  margin-bottom: 5px;
+                  cursor: pointer;
+                  border: none;
+                  background-color: #615b40;
+                  color: white;
+                  font-size: 12px;
+                  height: 50px;
+                  line-height: 50px;
+                  padding: 0 30px;
+                  text-transform: uppercase;
+                }
+              }
+            }
+          }
+        }
+        @media screen and (max-width: 992px) {
+          flex-direction: column;
+        }
+      }
+    }
+  }
+}

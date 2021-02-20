@@ -1,0 +1,38 @@
+.breadcrumbs {
+  padding: 90px 0 0 0;
+  background-color: white;
+  min-height: 40px;
+  .container {
+    @include container;
+    div {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      h2 {
+        font-size: 24px;
+        font-weight: 300;
+        margin: 0;
+      }
+      ol {
+        display: flex;
+        flex-wrap: wrap;
+        list-style: none;
+        padding: 0;
+        margin: 0;
+        font-size: 14px;
+        li {
+          a {
+            color: #292929;
+            transition: all 0.5s ease-in-out 0s;
+          }
+        }
+        li + li::before {
+          display: inline-block;
+          padding: 0 10px;
+          color: #6c757d;
+          content: '/';
+        }
+      }
+    }
+  }
+}

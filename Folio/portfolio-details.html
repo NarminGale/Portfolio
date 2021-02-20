@@ -19,30 +19,33 @@
       rel="stylesheet"
     />
     <!-- Main css -->
-    <link rel="stylesheet" href="css/portfolioDetails.css" />
+    <link rel="stylesheet" href="./css/portfolioDetails.css" />
   </head>
   <body>
     <!-- Navbar -->
-    <nav id="main-nav" class="subpage-nav">
+    <nav class="main-nav">
       <div class="row">
         <div class="container">
-          <div class="logo">
+          <div class="nav-header">
             <a href="index.html">
-              <!-- <img src="" alt="logo"> -->
-              NARMIN
+              <!-- Can be add images here but added name text -->
+              <!-- <img src='' alt='logo'> -->
+              narmin
             </a>
-          </div>
-          <div class="responsive">
-            <i class="fas fa-bars"></i>
+            <div class="nav-toggle">
+              <i class="fas fa-bars"></i>
+            </div>
           </div>
 
-          <ul class="nav-menu">
-            <li><a href="index.html" class="smoothScroll">Home</a></li>
-            <li><a href="#about" class="smoothScroll">About</a></li>
-            <li><a href="#portfolio" class="smoothScroll">Portfolio</a></li>
-            <li><a href="#journal" class="smoothScroll">Blog</a></li>
-            <li><a href="#contact" class="smoothScroll">Contact</a></li>
-          </ul>
+          <div class="links-container">
+            <ul class="nav-menu">
+              <li><a href="#hero" class="smoothScroll">Ana səhifə</a></li>
+              <li><a href="#about" class="smoothScroll">Haqqımda</a></li>
+              <li><a href="#portfolio" class="smoothScroll">Portfel</a></li>
+              <li><a href="#journal" class="smoothScroll">Blog</a></li>
+              <li><a href="#contact" class="smoothScroll">Əlaqə</a></li>
+            </ul>
+          </div>
         </div>
       </div>
     </nav>
@@ -99,13 +102,12 @@
       <!-- End of Portfolio Details Section -->
     </main>
     <!-- End of Main -->
-    <!-- Main js file -->
 
     <!-- Footer -->
     <div id="footer" class="footer">
       <div class="container">
-        <div class="socials-media">
-          <ul class="list-unstyled">
+        <div class="social-media">
+          <ul class="list-social">
             <li>
               <a href="#"><i class="fab fa-facebook-f"></i></a>
             </li>
@@ -128,6 +130,6 @@
     <!-- End of Footer -->
 
     <!-- Main JS files -->
-    <script src="./js/slider.js"></script>
+    <script src="./js/navbar.js"></script>
   </body>
 </html>

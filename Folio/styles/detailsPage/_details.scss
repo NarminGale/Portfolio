@@ -1,3 +1,24 @@
 .portfolio-details {
   padding-top: 30px;
+  .container {
+    @include container;
+    .portfolio-details-container {
+      position: relative;
+      .portfolio-details-carousel {
+        overflow: hidden;
+        width: 500px;
+        height: 500px;
+        .carousel {
+          display: flex;
+          transition: transform 0.3s linear;
+          transform: translateX(0);
+          img {
+            width: 500px;
+            height: 500px;
+            object-fit: cover;
+          }
+        }
+      }
+    }
+  }
 }

@@ -243,6 +243,59 @@ nav .row .container .links-container .nav-menu li a {
   padding-top: 30px;
 }
 
+.portfolio-details .container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+  .portfolio-details .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .portfolio-details .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .portfolio-details .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .portfolio-details .container {
+    max-width: 1140px;
+  }
+}
+
+.portfolio-details .container .portfolio-details-container {
+  position: relative;
+}
+
+.portfolio-details .container .portfolio-details-container .portfolio-details-carousel {
+  overflow: hidden;
+  width: 500px;
+  height: 500px;
+}
+
+.portfolio-details .container .portfolio-details-container .portfolio-details-carousel .carousel {
+  display: flex;
+  transition: transform 0.3s linear;
+  transform: translateX(0);
+}
+
+.portfolio-details .container .portfolio-details-container .portfolio-details-carousel .carousel img {
+  width: 500px;
+  height: 500px;
+  object-fit: cover;
+}
+
 .footer {
   background-color: #f5eee6;
   padding: 50px 0;
@@ -302,5 +355,6 @@ nav .row .container .links-container .nav-menu li a {
 }
 
 nav {
-  visibility: visible;
+  visibility: visible !important;
+  position: fixed !important;
 }

@@ -169,6 +169,76 @@ nav .row .container .links-container .nav-menu li a {
   }
 }
 
+.breadcrumbs {
+  padding: 90px 0 0 0;
+  background-color: white;
+  min-height: 40px;
+}
+
+.breadcrumbs .container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+  .breadcrumbs .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .breadcrumbs .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .breadcrumbs .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .breadcrumbs .container {
+    max-width: 1140px;
+  }
+}
+
+.breadcrumbs .container div {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.breadcrumbs .container div h2 {
+  font-size: 24px;
+  font-weight: 300;
+  margin: 0;
+}
+
+.breadcrumbs .container div ol {
+  display: flex;
+  flex-wrap: wrap;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  font-size: 14px;
+}
+
+.breadcrumbs .container div ol li a {
+  color: #292929;
+  transition: all 0.5s ease-in-out 0s;
+}
+
+.breadcrumbs .container div ol li + li::before {
+  display: inline-block;
+  padding: 0 10px;
+  color: #6c757d;
+  content: '/';
+}
+
 .footer {
   background-color: #f5eee6;
   padding: 50px 0;

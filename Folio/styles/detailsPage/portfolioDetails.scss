@@ -6,5 +6,6 @@
 @import '../mainPage/mixins';
 
 nav {
-  visibility: visible;
+  visibility: visible !important;
+  position: fixed !important;
 }

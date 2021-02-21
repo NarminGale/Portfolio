@@ -241,6 +241,7 @@ nav .row .container .links-container .nav-menu li a {
 
 .portfolio-details {
   padding-top: 30px;
+  background-color: white;
 }
 
 .portfolio-details .container {
@@ -278,22 +279,43 @@ nav .row .container .links-container .nav-menu li a {
   position: relative;
 }
 
-.portfolio-details .container .portfolio-details-container .portfolio-details-carousel {
-  overflow: hidden;
-  width: 500px;
-  height: 500px;
-}
-
 .portfolio-details .container .portfolio-details-container .portfolio-details-carousel .carousel {
-  display: flex;
-  transition: transform 0.3s linear;
-  transform: translateX(0);
+  width: 100%;
+  height: 100vh;
+  position: relative;
+  overflow: hidden;
 }
 
 .portfolio-details .container .portfolio-details-container .portfolio-details-carousel .carousel img {
-  width: 500px;
-  height: 500px;
+  position: absolute;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  transition: all 0.25s ease-in-out;
+}
+
+.portfolio-details .container .portfolio-details-container .portfolio-details-carousel .carousel img:nth-child(1) {
+  left: 0;
+}
+
+.portfolio-details .container .portfolio-details-container .portfolio-details-carousel .carousel img:nth-child(2) {
+  left: 100%;
+}
+
+.portfolio-details .container .portfolio-details-container .portfolio-details-carousel .carousel img:nth-child(3) {
+  left: 200%;
+}
+
+.portfolio-details .container .portfolio-details-container .portfolio-details-carousel .carousel img:nth-child(4) {
+  left: 300%;
+}
+
+.portfolio-details .container .portfolio-details-container .portfolio-details-carousel .carousel img:nth-child(5) {
+  left: 400%;
+}
+
+.portfolio-details .container .portfolio-details-container .portfolio-details-carousel .carousel img {
+  transform: translateX(0%);
 }
 
 .footer {

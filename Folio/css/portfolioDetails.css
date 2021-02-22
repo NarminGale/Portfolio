@@ -341,6 +341,20 @@ nav .row .container .links-container .nav-menu li a {
   }
 }
 
+.portfolio-details .container .portfolio-details-container .portfolio-details-carousel .dots {
+  margin-top: 5px;
+}
+
+.portfolio-details .container .portfolio-details-container .portfolio-details-carousel .dots .dot {
+  margin: 0 6px 0 0;
+  width: 13px;
+  height: 13px;
+  background-color: #ddd !important;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
 .portfolio-details .container .portfolio-details-container .portfolio-info {
   padding: 30px;
   position: absolute;
@@ -384,6 +398,14 @@ nav .row .container .links-container .nav-menu li a {
     position: static;
     margin-top: 30px;
   }
+}
+
+.portfolio-details .container .portfolio-description {
+  padding-top: 40px;
+}
+
+.portfolio-details .container .portfolio-description h2 {
+  width: 50%;
 }
 
 .footer {

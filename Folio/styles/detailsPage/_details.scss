@@ -35,6 +35,18 @@
             height: 100vh;
           }
         }
+        .dots {
+          margin-top: 5px;
+          .dot {
+            margin: 0 6px 0 0;
+            width: 13px;
+            height: 13px;
+            background-color: #ddd !important;
+            border-radius: 50%;
+            display: inline-block;
+            transition: background-color 0.6s ease;
+          }
+        }
       }
       .portfolio-info {
         padding: 30px;
@@ -72,6 +84,12 @@
           position: static;
           margin-top: 30px;
         }
+      }
+    }
+    .portfolio-description {
+      padding-top: 40px;
+      h2 {
+        width: 50%;
       }
     }
   }

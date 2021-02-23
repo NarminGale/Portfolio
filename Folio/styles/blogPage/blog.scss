@@ -1,0 +1,9 @@
+@import '../mainPage/general';
+@import '../mainPage/navbar';
+@import '../mainPage/footer';
+@import '../mainPage/mixins';
+
+nav {
+  visibility: visible !important;
+  position: fixed !important;
+}

@@ -169,6 +169,99 @@ nav .row .container .links-container .nav-menu li a {
   }
 }
 
+main .main-content {
+  background-color: gray;
+  padding-top: 120px;
+  padding-bottom: 90px;
+}
+
+main .main-content .container {
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}
+
+@media (min-width: 576px) {
+  main .main-content .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  main .main-content .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  main .main-content .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  main .main-content .container {
+    max-width: 1140px;
+  }
+}
+
+main .main-content .container .entry-container {
+  max-width: 66%;
+  margin: 0 auto;
+}
+
+main .main-content .container .entry-container .content {
+  max-width: 100%;
+  background-color: white;
+}
+
+main .main-content .container .entry-container .content .block-main {
+  margin-bottom: 30px;
+}
+
+main .main-content .container .entry-container .content .block-main img {
+  width: 100%;
+  height: 600px;
+  object-fit: cover;
+  display: block;
+}
+
+main .main-content .container .entry-container .content .block-main .content-main {
+  padding: 30px 20px;
+  width: 100%;
+}
+
+main .main-content .container .entry-container .content .block-main .content-main .journal-text h4 {
+  font-size: 20px;
+  font-weight: 500;
+}
+
+main .main-content .container .entry-container .content .block-main .content-main .post-meta {
+  width: 50%;
+}
+
+main .main-content .container .entry-container .content .block-main .content-main .post-meta ul {
+  display: flex;
+  padding: 0;
+  justify-content: space-between;
+}
+
+main .main-content .container .entry-container .content .block-main .content-main .post-meta ul li {
+  color: #a2a2a2;
+  font-size: 13px;
+  font-weight: normal;
+  text-transform: capitalize;
+}
+
+main .main-content .container .entry-container .comment {
+  max-width: 100%;
+}
+
+main .main-content .container .entry-container .contact {
+  max-width: 100%;
+}
+
 .footer {
   background-color: #f5eee6;
   padding: 50px 0;

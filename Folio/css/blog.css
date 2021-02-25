@@ -271,8 +271,73 @@ main .main-content .container .entry-container .content .block-main .content-mai
   border-left: 4px solid rebeccapurple;
 }
 
-main .main-content .container .entry-container .comment {
+main .main-content .container .entry-container .comments {
   max-width: 100%;
+  background-color: white;
+  padding: 30px 20px;
+  margin-bottom: 30px;
+  text-align: left;
+}
+
+main .main-content .container .entry-container .comments .entry-comments h6 {
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  margin-bottom: 30px;
+  color: #898989;
+}
+
+main .main-content .container .entry-container .comments .entry-comments .entry-comments-list {
+  padding-left: 0;
+}
+
+main .main-content .container .entry-container .comments .entry-comments .entry-comments-list li .entry-comments-item {
+  margin-top: 40px;
+  padding-bottom: 40px;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+main .main-content .container .entry-container .comments .entry-comments .entry-comments-list li .entry-comments-item .entry-comments-avatar {
+  width: 60px;
+  height: 60px;
+  object-fit: cover;
+  border-radius: 50%;
+}
+
+main .main-content .container .entry-container .comments .entry-comments .entry-comments-list li .entry-comments-item .entry-comments-body {
+  flex-basis: 90%;
+  padding-left: 25px;
+}
+
+main .main-content .container .entry-container .comments .entry-comments .entry-comments-list li .entry-comments-item .entry-comments-body .entry-comments-author {
+  margin-right: 10px;
+  font-size: 13px;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+}
+
+main .main-content .container .entry-container .comments .entry-comments .entry-comments-list li .entry-comments-item .entry-comments-body .date {
+  font-size: 13px;
+  color: #999;
+}
+
+main .main-content .container .entry-container .comments .entry-comments .entry-comments-list li .entry-comments-item .entry-comments-body .paragraph {
+  margin: 25px 0 30px;
+  font-weight: 300;
+  padding: 0;
+  font-size: 15px;
+  line-height: 28px;
+  color: #999999;
+}
+
+main .main-content .container .entry-container .comments .entry-comments .entry-comments-list li .entry-comments-item .entry-comments-body .reply {
+  font-size: 13px;
+  color: black;
+  letter-spacing: 0.1em;
+  font-weight: 500;
+  text-transform: capitalize;
 }
 
 main .main-content .container .entry-container .contact {

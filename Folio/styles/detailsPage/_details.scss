@@ -61,6 +61,7 @@
           font-weight: 700;
           margin-bottom: 20px;
           padding-bottom: 20px;
+          color: #796c5f;
           border-bottom: 1px solid #eee;
         }
         ul {
@@ -68,15 +69,15 @@
           margin: 0;
           margin-bottom: 1rem;
           font-size: 15px;
-
           li {
             line-height: 30px;
             letter-spacing: 0.02em;
+            color: #796c5f;
             strong {
               font-weight: normal;
             }
             a {
-              color: black;
+              color: #4d453d;
             }
           }
         }
@@ -92,6 +93,7 @@
         width: 50%;
         font-size: 26px;
         font-weight: 700;
+        color: #4d453d;
         @media (max-width: 768px) {
           width: 100%;
         }
@@ -102,6 +104,7 @@
         margin: 30px 0 25px 0;
         font-size: 15px;
         line-height: 28px;
+        color: #796c5f;
       }
     }
   }
